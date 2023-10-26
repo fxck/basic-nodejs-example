@@ -1,5 +1,7 @@
 app:
   build:
+    base:
+      - nodejs@18
     build:
       - npm i
     deploy: [ ./ ]
