@@ -1,0 +1,7 @@
+app:
+  build:
+    build:
+      - npm i
+    deploy: [ ./ ]
+  run:
+    start: npm start
